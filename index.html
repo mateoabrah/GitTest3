@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 2rem;
-            background-color: #f0f0f0;
-        }
-
-        header, footer {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        main {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¿Qué es GitHub?</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Bienvenido a mi página</h1>
-    </header>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-    <main>
-        <p>Este es el contenido principal de la página. Puedes modificarlo a tu gusto.</p>
-    </main>
+  <header class="bg-black text-white py-6 shadow-md">
+    <div class="max-w-5xl mx-auto px-4">
+      <h1 class="text-3xl font-bold">¿Qué es GitHub?</h1>
+      <p class="text-gray-400">Tu herramienta favorita para el control de versiones y colaboración</p>
+    </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2025 Mi página web</p>
-    </footer>
+  <main class="max-w-5xl mx-auto px-4 py-10">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">💡 Introducción</h2>
+      <p class="text-lg">
+        <span class="font-semibold">GitHub</span> es una plataforma de desarrollo colaborativo que utiliza
+        el sistema de control de versiones <span class="italic">Git</span>. Permite a los desarrolladores trabajar en proyectos
+        de forma distribuida, compartir código, colaborar y hacer seguimiento de cambios.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">🚀 Características principales</h2>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+        <li>Repositorios públicos y privados</li>
+        <li>Gestión de ramas y control de versiones</li>
+        <li>Pull Requests y revisión de código</li>
+        <li>Issues para seguimiento de errores y tareas</li>
+        <li>GitHub Actions para automatizar flujos de trabajo</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">🌐 ¿Para qué se usa?</h2>
+      <p class="text-lg">
+        GitHub es utilizado por desarrolladores individuales, startups, empresas y organizaciones para:
+      </p>
+      <ul class="list-disc list-inside space-y-2 mt-2 text-lg">
+        <li>Almacenar código fuente</li>
+        <li>Colaborar en proyectos abiertos</li>
+        <li>Implementar integración continua</li>
+        <li>Documentar software</li>
+        <li>Mostrar su portafolio profesional</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">🔗 Enlaces útiles</h2>
+      <ul class="list-inside space-y-2 text-lg">
+        <li><a class="text-blue-600 hover:underline" href="https://github.com/" target="_blank">Sitio oficial de GitHub</a></li>
+        <li><a class="text-blue-600 hover:underline" href="https://docs.github.com/es" target="_blank">Documentación en español</a></li>
+        <li><a class="text-blue-600 hover:underline" href="https://lab.github.com/" target="_blank">GitHub Learning Lab</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-300 py-4">
+    <div class="max-w-5xl mx-auto px-4 text-center text-sm">
+		&copy; 2025 Mi página web
+    </div>
+  </footer>
+
 </body>
 </html>
+
